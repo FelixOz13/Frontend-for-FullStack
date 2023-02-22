@@ -1,0 +1,151 @@
+.comments {
+  width: 70%;
+  padding: 1px;
+  font-family: 'Asap Condensed';
+  height: 120px;
+  text-align: center;
+
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+
+  -moz-animation: my-animation 1s infinite;
+  -webkit-animation: my-animation 1s linear infinite;
+  animation: my-animation 9s linear infinite;
+  animation-fill-mode: forwards;
+
+}
+
+.comments-container {
+  position: relative;
+  bottom: 5px;
+  height: 240px;
+  width: 100%;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: black;
+  font-family: 'Asap Condensed';
+  overflow: hidden;
+  overflow-y: scroll;
+  border-color: #f4c44b;
+  border: 1px solid #f4c44b;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: green;
+  border-radius: 4px;
+  /* Set a fixed size for the scrollbar thumb */
+  min-height: 30px;
+}
+
+/* Set a fixed size for the scrollbar track */
+::-webkit-scrollbar-track {
+  width: 2rem;
+  background-color: black;
+  /* Set a fixed size for the scrollbar track */
+  min-height: 30px;
+}
+
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+  }
+
+  to {
+    -moz-transform: translateY(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+​ .comment-form-title2 {
+  font-size: 20px;
+  background-color: black;
+  font-family: 'Henny Penny';
+
+  color: red;
+}
+
+.comment-form-textarea {
+  width: 200%;
+  height: 30px;
+  font-family: 'Asap Condensed';
+  font-size: 15px;
+  background-color: black;
+  color: goldenrod;
+
+}
+
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%
+    /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: blue
+}
+
+.sharebutton {
+  width: 50px;
+  font-size: 25px;
+  color: #dc9e02;
+  background-color: black;
+  position: relative;
+  bottom: 45px;
+  left: 150px;
+}
+
+
+
+.form-group2 input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  background-color: black;
+  color: green;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  font-family: 'Asap Condensed';
+  font-size: 15px;
+  height: 30px;
+  margin-bottom: 30px;
+
+}
+
+.form-group2 label {
+  text-align: left;
+  display: block;
+
+}

@@ -1,0 +1,67 @@
+.react-player3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 4rem;
+  color: blue;
+
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  width: 95%;
+  display: block;
+  margin: 45px;
+
+  /* Player ratio: 100 / (1280 / 720) */
+}
+
+.third-party-icons2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+
+}
+
+.third-party-icons>* {
+  flex: 0 1 20%;
+}
+
+#third-party-grid {
+  width: 55px;
+  height: 55px;
+  border-radius: 20%;
+  margin: 6px;
+}
+
+.sharebutton {
+  width: 50px;
+  font-size: 25px;
+  color: #dc9e02;
+  background-color: black;
+  position: relative;
+  bottom: 45px;
+  left: 150px;
+}
+
+.bandera-icons {
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+.bandera {
+  color: #dc9e02;
+  margin: 4px;
+}
+
+.videoBg {
+  width: 100%;
+  height: 100%;
+}
+
+.BgVideo {
+  width: 100%;
+  height: 500vh;
+  object-fit: cover;
+}
